@@ -9,7 +9,6 @@ FONT_FILE_BITMAP = "./fonts/iosevka.regular.ttf"
 FONT_FILE_TRUETYPE = "./fonts/iosevka-regular.ttf"
 FONT_FILE_MONA = "./fonts/Inversionz.otf"
 
-
 def main():
     t = gifos.Terminal(800, 600, 5, 5, FONT_FILE_BITMAP, 15)
     t.set_prompt("\x1b[91mrenr\x1b[0m@\x1b[92mrenbook\x1b[0m:\x1b[94m~\x1b[0m$ ")
@@ -83,7 +82,7 @@ def main():
     git_user_details = gifos.utils.fetch_github_stats("NoRenderer", ignore_repos)
     user_age = gifos.utils.calc_age(8, 5, 2007)
     t.clear_frame()
-    top_languages = [lang[0] for lang in git_user_details.languages_sorted]
+    top_languages = [lang[0] for lang in git_user_details.languages_sorted]    
     user_details_lines = f"""
     \x1b[30;101mNoRenderer@GitHub\x1b[0m
     --------------
@@ -166,6 +165,9 @@ def main():
     <source media="(prefers-color-scheme: light)" srcset="{image.url}">
     <img alt="RENOS" src="{image.url}">
 </picture>
+<div align="center">
+    <img src="https://spotify-recently-played-readme.vercel.app/api?user=31d6d6zerc5ct6kck32na2ozsqf4&unique=1&width=400" alt="Spotify" />
+</div>
 </div>
 
 <!-- Image deletion URL: {image.delete_url} -->"""
