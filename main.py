@@ -80,7 +80,7 @@ def main():
 
     ignore_repos = ["archiso-zfs", "archiso-zfs-archive"]
     git_user_details = gifos.utils.fetch_github_stats("NoRenderer", ignore_repos)
-    user_age = gifos.utils.calc_age(08, 05, 2005)
+    user_age = gifos.utils.calc_age(8, 05, 2005)
     t.clear_frame()
     top_languages = [lang[0] for lang in git_user_details.languages_sorted]
     user_details_lines = f"""
