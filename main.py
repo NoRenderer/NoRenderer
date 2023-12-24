@@ -81,7 +81,7 @@ def main():
 
     ignore_repos = ["archiso-zfs", "archiso-zfs-archive"]
     git_user_details = gifos.utils.fetch_github_stats("NoRenderer", ignore_repos)
-    user_age = gifos.utils.calc_age(8, 5, 2005)
+    user_age = gifos.utils.calc_age(8, 5, 2007)
     t.clear_frame()
     top_languages = [lang[0] for lang in git_user_details.languages_sorted]
     user_details_lines = f"""
@@ -102,10 +102,10 @@ def main():
     --------------
     \x1b[96mUser Rating: \x1b[93m{git_user_details.user_rank.level}\x1b[0m
     \x1b[96mTotal Stars Earned: \x1b[93m{git_user_details.total_stargazers}\x1b[0m
-    \x1b[96mTotal Commits (2023): \x1b[93m{git_user_details.total_commits_last_year}\x1b[0m \n
-    \x1b[96mTotal PRs: \x1b[93m{git_user_details.total_pull_requests_made}\x1b[0m \n
-    \x1b[96mMerged PR %: \x1b[93m{git_user_details.pull_requests_merge_percentage}\x1b[0m \n
-    \x1b[96mTotal Contributions: \x1b[93m{git_user_details.total_repo_contributions}\x1b[0m \n
+    \x1b[96mTotal Commits (2023): \x1b[93m{git_user_details.total_commits_last_year}\x1b[0m
+    \x1b[96mTotal PRs: \x1b[93m{git_user_details.total_pull_requests_made}\x1b[0m
+    \x1b[96mMerged PR %: \x1b[93m{git_user_details.pull_requests_merge_percentage}\x1b[0m
+    \x1b[96mTotal Contributions: \x1b[93m{git_user_details.total_repo_contributions}\x1b[0m
     \x1b[96mTop Languages: \x1b[93m{', '.join(top_languages[:5])}\x1b[0m
     """
     t.gen_prompt(1)
