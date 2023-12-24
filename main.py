@@ -5,8 +5,8 @@ import gifos
 
 FONT_FILE_LOGO = "./fonts/vtks-blocketo.regular.ttf"
 # FONT_FILE_BITMAP = "./fonts/ter-u14n.pil"
-FONT_FILE_BITMAP = "./fonts/gohufont-uni-14.pil"
-FONT_FILE_TRUETYPE = "./fonts/iosevka.regular.ttf"
+FONT_FILE_BITMAP = "./fonts/iosevka.regular.ttf"
+FONT_FILE_TRUETYPE = "./fonts/iosevka-regular.ttf"
 FONT_FILE_MONA = "./fonts/Inversionz.otf"
 
 
@@ -86,7 +86,7 @@ def main():
     user_details_lines = f"""
     \x1b[30;101mNoRenderer@GitHub\x1b[0m
     --------------
-    \x1b[96mOS:     \x1b[93mPOP!_OS 21.04,, Android, Windows 10\x1b[0m
+    \x1b[96mOS:     \x1b[93mPOP!_OS 21.04, Android, Windows 10\x1b[0m
     \x1b[96mHost:   \x1b[93mRenbook\x1b[0m
     \x1b[96mKernel: \x1b[93m6.7-rc7\x1b[0m
     \x1b[96mUptime: \x1b[93m{user_age.years} years, {user_age.months} months, {user_age.days} days\x1b[0m
