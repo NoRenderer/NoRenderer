@@ -11,7 +11,7 @@ FONT_FILE_MONA = "./fonts/Inversionz.otf"
 
 
 def main():
-    t = gifos.Terminal(850, 600, 15, 15, FONT_FILE_BITMAP, 15)
+    t = gifos.Terminal(800, 600, 5, 5, FONT_FILE_BITMAP, 15)
     t.set_fps(15)
 
     t.gen_text("", 1, count=20)
@@ -72,8 +72,8 @@ def main():
     t.gen_text(f"Last login: {time_now} on tty1", 6)
 
     t.gen_prompt(7, count=5)
-    prompt_col = t.curr_col
     t.set_prompt("\x1b[91mrenr\x1b[0m@\x1b[92mrenbook\x1b[0m:\x1b[94m~\x1b[0m$ ")
+    prompt_col = t.curr_col
     t.toggle_show_cursor(True)
     t.gen_typing_text("\x1b[91mclea", 7, contin=True)
     t.delete_row(7, prompt_col)  # simulate syntax highlighting
