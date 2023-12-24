@@ -73,6 +73,7 @@ def main():
 
     t.gen_prompt(7, count=5)
     prompt_col = t.curr_col
+    t.set_prompt("\x1b[91mrenr\x1b[0m@\x1b[92mrenbook\x1b[0m:\x1b[94m~\x1b[0m$ ")
     t.toggle_show_cursor(True)
     t.gen_typing_text("\x1b[91mclea", 7, contin=True)
     t.delete_row(7, prompt_col)  # simulate syntax highlighting
