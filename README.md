@@ -1,16 +1,12 @@
 <div align="justify">
 <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://i.ibb.co/mynznJ3/output-gif.gif">
-    <source media="(prefers-color-scheme: light)" srcset="https://i.ibb.co/mynznJ3/output-gif.gif">
-    <img alt="RENOS" src="https://i.ibb.co/mynznJ3/output-gif.gif">
+    <source media="(prefers-color-scheme: dark)" srcset="https://i.ibb.co/7by1vLd/output-gif.gif">
+    <source media="(prefers-color-scheme: light)" srcset="https://i.ibb.co/7by1vLd/output-gif.gif">
+    <img alt="RENOS" src="https://i.ibb.co/7by1vLd/output-gif.gif">
 </picture>
-
-<sub><i>Generated automatically using [x0rzavi/github-readme-terminal](https://github.com/x0rzavi/github-readme-terminal) on Sun Dec 24 07:01:00 PM JST 2023</i></sub>
-
-<details>
-<summary>More details</summary>
-
-</details>
+<div align="center">
+    <img src="https://spotify-recently-played-readme.vercel.app/api?user=31d6d6zerc5ct6kck32na2ozsqf4&unique=1&width=400" alt="Spotify" />
+</div>
 </div>
 
-<!-- Image deletion URL: https://ibb.co/ZgQTQd0/aec28694ddfcd52d00ebd560bdaf87de -->
+<!-- Image deletion URL: https://ibb.co/LvpZSHX/f9335a5020f0402d33d36e3367e14d89 -->
