@@ -11,7 +11,7 @@ FONT_FILE_MONA = "./fonts/Inversionz.otf"
 
 
 def main():
-    t = gifos.Terminal(750, 500, 15, 15, FONT_FILE_BITMAP, 15)
+    t = gifos.Terminal(850, 600, 15, 15, FONT_FILE_BITMAP, 15)
     t.set_fps(15)
 
     t.gen_text("", 1, count=20)
