@@ -29,7 +29,7 @@ jobs:
       - name: Run script
         run: python main.py
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GTOKEN }}
           IMGBB_API_KEY: ${{ secrets.IMGBB_API_KEY }}
           GIFOS_GENERAL_COLOR_SCHEME: "gruvbox-dark"
 
