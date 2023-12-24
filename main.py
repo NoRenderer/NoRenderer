@@ -85,7 +85,7 @@ def main():
     top_languages = [lang[0] for lang in git_user_details.languages_sorted]    
     user_details_lines = f"""
     \x1b[30;101mNoRenderer@GitHub\x1b[0m
-    --------------
+    ⸻⸻⸻
     \x1b[96mOS:     \x1b[93mPOP!_OS, Arch Linux, Windows 10, Android\x1b[0m
     \x1b[96mHost:   \x1b[93mRenbook\x1b[0m
     \x1b[96mKernel: \x1b[93m6.7-rc7\x1b[0m
@@ -93,12 +93,12 @@ def main():
     \x1b[96mIDE:    \x1b[93mneovim\x1b[0m
     
     \x1b[30;101mContact:\x1b[0m
-    --------------
+    ⸻⸻⸻
     \x1b[96mEmail:      \x1b[93mren@renr.jp\x1b[0m
     \x1b[96mDiscord:    \x1b[93mren.nr\x1b[0m
     
     \x1b[30;101mGitHub Stats:\x1b[0m
-    
+    ⸻⸻⸻
     \x1b[96mUser Rating: \x1b[93m{git_user_details.user_rank.level}\x1b[0m
     \x1b[96mTotal Stars Earned: \x1b[93m{git_user_details.total_stargazers}\x1b[0m
     \x1b[96mTotal Commits (2023): \x1b[93m{git_user_details.total_commits_last_year}\x1b[0m
