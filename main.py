@@ -166,13 +166,6 @@ def main():
     <source media="(prefers-color-scheme: light)" srcset="{image.url}">
     <img alt="RENOS" src="{image.url}">
 </picture>
-
-<sub><i>Generated automatically using [x0rzavi/github-readme-terminal](https://github.com/x0rzavi/github-readme-terminal) on {time_now}</i></sub>
-
-<details>
-<summary>More details</summary>
-
-</details>
 </div>
 
 <!-- Image deletion URL: {image.delete_url} -->"""
