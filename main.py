@@ -98,7 +98,7 @@ def main():
     \x1b[96mDiscord:    \x1b[93mren.nr\x1b[0m
     
     \x1b[30;101mGitHub Stats:\x1b[0m
-    --------------
+    
     \x1b[96mUser Rating: \x1b[93m{git_user_details.user_rank.level}\x1b[0m
     \x1b[96mTotal Stars Earned: \x1b[93m{git_user_details.total_stargazers}\x1b[0m
     \x1b[96mTotal Commits (2023): \x1b[93m{git_user_details.total_commits_last_year}\x1b[0m
