@@ -33,7 +33,7 @@ def main():
         else:
             t.gen_text(f"Memory Test: {i}", 7, contin=True)
     t.delete_row(7)
-    t.gen_text("Memory Test: 128GB", 7, contin=True)
+    t.gen_text("Memory Test: 64K OK", 7, contin=True)
     t.gen_text("", 11, count=10, contin=True)
 
     t.clear_frame()
