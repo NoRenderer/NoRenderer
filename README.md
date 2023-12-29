@@ -1,8 +1,8 @@
 <div align="justify">
 <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://i.ibb.co/fxPqz08/output-gif.gif">
-    <source media="(prefers-color-scheme: light)" srcset="https://i.ibb.co/fxPqz08/output-gif.gif">
-    <img alt="RENOS" src="https://i.ibb.co/fxPqz08/output-gif.gif">
+    <source media="(prefers-color-scheme: dark)" srcset="https://i.ibb.co/qgmvvXT/output-gif.gif">
+    <source media="(prefers-color-scheme: light)" srcset="https://i.ibb.co/qgmvvXT/output-gif.gif">
+    <img alt="RENOS" src="https://i.ibb.co/qgmvvXT/output-gif.gif">
 </picture>
 <details>
 <summary>Spotify Recently Played</summary>
@@ -10,4 +10,4 @@
 </details>
 </div>
 
-<!-- Image deletion URL: https://ibb.co/DRSzHKG/a33a882e5cbbbf685df838d6745b4b63 -->
+<!-- Image deletion URL: https://ibb.co/Zgc00tq/a19e9e9beab190be4328d43a6f30a913 -->
