@@ -88,7 +88,7 @@ def main():
     ⸻⸻⸻
     \x1b[96mOS:     \x1b[93mPOP!_OS, Arch Linux, Windows 10, Android\x1b[0m
     \x1b[96mHost:   \x1b[93mRenbook\x1b[0m
-    \x1b[96mKernel: \x1b[93m6.7-rc7\x1b[0m
+    \x1b[96mKernel: \x1b[93m6.7\x1b[0m
     \x1b[96mUptime: \x1b[93m{user_age.years} years, {user_age.months} months, {user_age.days} days\x1b[0m
     \x1b[96mIDE:    \x1b[93mneovim\x1b[0m
     
