@@ -11,7 +11,7 @@ FONT_FILE_MONA = "./fonts/Inversionz.otf"
 
 def main():
     t = gifos.Terminal(800, 600, 5, 5, FONT_FILE_BITMAP, 15)
-    t.set_prompt("\x1b[91mrenr\x1b[0m@\x1b[92mrenbook\x1b[0m:\x1b[94m~\x1b[0m$ ")
+    t.set_prompt("\x1b[91mren\x1b[0m@\x1b[92mrenbook\x1b[0m:\x1b[94m~\x1b[0m$ ")
     t.set_fps(15)
 
     t.gen_text("", 1, count=20)
