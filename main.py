@@ -59,7 +59,7 @@ def main():
     t.gen_text("\x1b[93mREN OS v1.0.11 (tty1)\x1b[0m", 1, count=5)
     t.gen_text("login: ", 3, count=5)
     t.toggle_show_cursor(True)
-    t.gen_typing_text("renr", 3, contin=True)
+    t.gen_typing_text("ren", 3, contin=True)
     t.gen_text("", 4, count=5)
     t.toggle_show_cursor(False)
     t.gen_text("password: ", 4, count=5)
