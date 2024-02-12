@@ -9,4 +9,6 @@
 <img src="https://spotify-recently-played-readme.vercel.app/api?user=31d6d6zerc5ct6kck32na2ozsqf4&unique=1&width=400" alt="Spotify" />
 </details>
 </div>
+<img src="https://i.ibb.co/3TWCnD8/CONTACT.png" alt="Contact" />
+
 <!-- Image deletion URL: https://ibb.co/sRF7Xzt/826241ec70fb0c553bcb6d7283d4282b -->
