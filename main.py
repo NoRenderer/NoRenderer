@@ -159,7 +159,7 @@ def main():
 
     t.gen_gif()
     image = gifos.utils.upload_imgbb("output.gif", 129600)  # 1.5 days expiration
-    readme_file_content = rf"""<div align="justify">
+    readme_file_content = rf"""<div align="center">
 <picture>
     <source media="(prefers-color-scheme: dark)" srcset="{image.url}">
     <source media="(prefers-color-scheme: light)" srcset="{image.url}">
