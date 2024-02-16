@@ -17,7 +17,7 @@ def main():
     t.gen_text("", 1, count=20)
     t.toggle_show_cursor(False)
     t.gen_text("RENDER BIOS v0.9.11", 1)
-    t.gen_text("Copyright (C) 2024, \x1b[31mRender Softworks Inc.\x1b[0m", 2)
+    t.gen_text("Copyright (C) {year_now}, \x1b[31mRender Softworks Inc.\x1b[0m", 2)
     t.gen_text("\x1b[94mGitHub Profile ReadMe Terminal, Rev 0.9.11\x1b[0m", 3)
     t.gen_text("Intel(R) Core(TM) i7-10700K CPU @ 3.80GHz", 4)
     t.gen_text(
@@ -101,7 +101,7 @@ def main():
     ⸻⸻⸻
     \x1b[96mUser Rating: \x1b[93m{git_user_details.user_rank.level}\x1b[0m
     \x1b[96mTotal Stars Earned: \x1b[93m{git_user_details.total_stargazers}\x1b[0m
-    \x1b[96mTotal Commits (2024): \x1b[93m{git_user_details.total_commits_last_year}\x1b[0m
+    \x1b[96mTotal Commits ({int(year_now) - 1}):: \x1b[93m{git_user_details.total_commits_last_year}\x1b[0m
     \x1b[96mTotal PRs: \x1b[93m{git_user_details.total_pull_requests_made}\x1b[0m
     \x1b[96mMerged PR %: \x1b[93m{git_user_details.pull_requests_merge_percentage}\x1b[0m
     \x1b[96mTotal Contributions: \x1b[93m{git_user_details.total_repo_contributions}\x1b[0m
@@ -155,7 +155,7 @@ def main():
         contin=True,
     )
     t.save_frame("fetch_details.png")
-    t.gen_text("", t.curr_row, count=80, contin=True)
+    t.gen_text("", t.curr_row, count=120, contin=True)
 
     t.gen_gif()
     image = gifos.utils.upload_imgbb("output.gif", 129600)  # 1.5 days expiration
@@ -172,8 +172,8 @@ def main():
 </div>
 
 <!-- Image deletion URL: {image.delete_url} -->"""
-    with open("README.md", "w") as fp:
-        fp.write(readme_file_content)
+    with open("README.md", "w") as f:
+        f.write(readme_file_content)
         print("INFO: README.md file generated")
 
 
