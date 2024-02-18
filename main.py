@@ -13,7 +13,7 @@ def main():
     t = gifos.Terminal(800, 600, 5, 5, FONT_FILE_BITMAP, 15)
     t.set_prompt("\x1b[91mren\x1b[0m@\x1b[92mrenbook\x1b[0m:\x1b[94m~\x1b[0m$ ")
     t.set_fps(15)
-    year_now = datetime.now(ZoneInfo("Japan")).strftime("%Y")
+    year_now = datetime.now(ZoneInfo("Asia/Tokyo")).strftime("%Y")
     t.gen_text("", 1, count=20)
     t.toggle_show_cursor(False)
     t.gen_text("RENDER BIOS v0.9.11", 1)
@@ -65,7 +65,7 @@ def main():
     t.toggle_show_cursor(True)
     t.gen_typing_text("*******", 4, contin=True)
     t.toggle_show_cursor(False)
-    time_now = datetime.now(ZoneInfo("Japan")).strftime(
+    time_now = datetime.now(ZoneInfo("Asia/Tokyo")).strftime(
         "%a %b %d %I:%M:%S %p %Z %Y"
     )
     t.gen_text(f"Last login: {time_now} on tty1", 6)
