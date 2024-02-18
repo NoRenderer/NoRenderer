@@ -13,7 +13,7 @@ def main():
     t = gifos.Terminal(800, 600, 5, 5, FONT_FILE_BITMAP, 15)
     t.set_prompt("\x1b[91mren\x1b[0m@\x1b[92mrenbook\x1b[0m:\x1b[94m~\x1b[0m$ ")
     t.set_fps(15)
-
+    year_now = datetime.now(ZoneInfo("Japan")).strftime("%Y")
     t.gen_text("", 1, count=20)
     t.toggle_show_cursor(False)
     t.gen_text("RENDER BIOS v0.9.11", 1)
@@ -51,7 +51,6 @@ def main():
     for i in range(len(effect_lines)):
         t.delete_row(mid_row + 1)
         t.gen_text(effect_lines[i], mid_row + 1, mid_col + 1)
-    year_now = datetime.now(ZoneInfo("Japan")).strftime("%Y")
     t.set_font(FONT_FILE_BITMAP, 15)
     t.clear_frame()
     t.clone_frame(5)
