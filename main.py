@@ -51,7 +51,7 @@ def main():
     for i in range(len(effect_lines)):
         t.delete_row(mid_row + 1)
         t.gen_text(effect_lines[i], mid_row + 1, mid_col + 1)
-
+    year_now = datetime.now(ZoneInfo("Japan")).strftime("%Y")
     t.set_font(FONT_FILE_BITMAP, 15)
     t.clear_frame()
     t.clone_frame(5)
