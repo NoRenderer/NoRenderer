@@ -17,7 +17,7 @@ def main():
     t.gen_text("", 1, count=20)
     t.toggle_show_cursor(False)
     t.gen_text("RENDER BIOS v0.9.11", 1)
-    t.gen_text("Copyright (C) {year_now}, \x1b[31mRender Softworks Inc.\x1b[0m", 2)
+    t.gen_text(f"Copyright (C) {year_now}, \x1b[31mRender Softworks Inc.\x1b[0m", 2)
     t.gen_text("\x1b[94mGitHub Profile ReadMe Terminal, Rev 0.9.11\x1b[0m", 3)
     t.gen_text("Intel(R) Core(TM) i7-10700K CPU @ 3.80GHz", 4)
     t.gen_text(
